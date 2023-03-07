@@ -58,5 +58,13 @@ namespace InterfaceExercise
         {
             HasChangedGears = isChanged;
         }
+
+        public void Details()
+        {
+            Console.WriteLine($"This Car is a {NumOfSeats} seat,{NumOfDoors} door,{EngineType}, Honda {Name}.");
+            Console.WriteLine($"The {Name} has a separate trunk?{SeparateTrunk}, but it's manual? {IsManual}");
+            Console.WriteLine($"For such a great price and reliability, this {NumOfWheels} wheel, compact sedan is just right for you.");
+            Console.WriteLine($"Come down to Honda,{Motto}.");
+        }
     }
 }

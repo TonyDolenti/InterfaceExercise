@@ -10,7 +10,7 @@ namespace InterfaceExercise
             var car = new Car();
 
             var suv = new SUV();
-
+            
             var truck = new Truck();
 
             var vehicles = new List<IVehicle>() { car, truck, suv };
@@ -20,8 +20,10 @@ namespace InterfaceExercise
                 vehicle.Drive();
                 vehicle.ChangeGears(true);
                 vehicle.Reverse();
-               
+                vehicle.Details();
             }
+
+            
 
 
 

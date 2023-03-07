@@ -55,5 +55,12 @@ namespace InterfaceExercise
         {
             HasChangedGears = isChanged;
         }
+        public void Details()
+        {
+            Console.WriteLine($"This Truck is a {NumOfWheels} wheel, {NumOfDoors} door {Name} with an extended cab? {HasExtendedCab}.");
+            Console.WriteLine($"Not to mention the powerful yet reliable and efficient {EngineType} engine, but it's manual? {IsManual}");
+            Console.WriteLine($"You must be thinking for such a great price it has an extended bed too? {HasExtendedBed}");
+            Console.WriteLine($"Come on down to Ford,{Motto}.");
+        }
     }
 }

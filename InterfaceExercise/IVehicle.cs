@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterfaceExercise
 {
-    internal interface IVehicle
+    public interface IVehicle
     {
         public int NumOfWheels { get; set; }
         public int NumOfDoors { get; set; }
@@ -19,5 +19,6 @@ namespace InterfaceExercise
         public void Reverse();
         public void Park();
         public void ChangeGears(bool isChanged);
+        public void Details();
     }
 }
